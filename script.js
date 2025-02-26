@@ -1,0 +1,12 @@
+function login()
+{
+  let a = username.value
+  let b = password.value
+  if (a == "HoangHaMy" && b == "25072007")
+  {
+    window.open("home2.html")
+    document.getElememtById(compiler).style.display="block";
+  }
+  else
+    document.write("không hợp lệ")
+}
