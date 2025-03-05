@@ -5,7 +5,7 @@ function login()
   if (a == "HoangHaMy" && b == "25072007")
   {
     window.open("home.html")
-    document.getElememtById(compiler).style.display="block";
+    document.getElememtById("compiler").style.display="block";
   }
   else
     document.write("không hợp lệ")
