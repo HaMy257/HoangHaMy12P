@@ -4,7 +4,7 @@ function login()
   let b = password.value
   if (a == "HoangHaMy" && b == "25072007")
   {
-    window.open("home.html")
+    window.open("Home.html")
     document.getElememtById("compiler").style.display="block";
   }
   else
